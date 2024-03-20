@@ -1,0 +1,32 @@
+
+
+POST http://localhost:3000/register/
+Content-Type : application/json
+{
+    "username": "krishna_kityy",
+    "password": "xxxx",
+    "name" : "krishna",
+    "gender": "male"
+}
+
+###
+
+POST http://localhost:3000/login/
+Content-Type : application/json  
+{
+    "username":"JoeBiden",
+    "password":"biden@12"
+}
+###
+
+GET http://localhost:3001/user/tweets/feed
+
+###
+
+GET http://localhost:3000/user/following/
+
+###
+
+
+GET http://localhost:3000/tweets/2/likes/
+Authentication : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwidXNlcklkIjoyLCJpYXQiOjE3MDMxMzg5NzR9.LRb9tlGqJshV36A2uFFWsWnFeb18IPCWjrb1dqzFEZY
